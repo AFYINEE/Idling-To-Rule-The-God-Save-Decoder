@@ -1,0 +1,16 @@
+E:\DefaultWinFolder\Document\Visual Studio 2013\Projects\IdlingGodDecode\IdlingGodDecode\obj\Debug\IdlingGodDecode.Form1.resources
+E:\DefaultWinFolder\Document\Visual Studio 2013\Projects\IdlingGodDecode\IdlingGodDecode\obj\Debug\IdlingGodDecode.Properties.Resources.resources
+E:\DefaultWinFolder\Document\Visual Studio 2013\Projects\IdlingGodDecode\IdlingGodDecode\obj\Debug\IdlingGodDecode.csproj.GenerateResource.Cache
+E:\DefaultWinFolder\Document\Visual Studio 2013\Projects\IdlingGodDecode\IdlingGodDecode\obj\Debug\IdlingGodDecode.exe.licenses
+E:\DefaultWinFolder\Document\Visual Studio 2013\Projects\IdlingGodDecode\IdlingGodDecode\bin\Debug\IdlingGodDecode.exe.config
+E:\DefaultWinFolder\Document\Visual Studio 2013\Projects\IdlingGodDecode\IdlingGodDecode\bin\Debug\IdlingGodDecode.exe
+E:\DefaultWinFolder\Document\Visual Studio 2013\Projects\IdlingGodDecode\IdlingGodDecode\bin\Debug\IdlingGodDecode.pdb
+E:\DefaultWinFolder\Document\Visual Studio 2013\Projects\IdlingGodDecode\IdlingGodDecode\bin\Debug\Assembly-CSharp-firstpass.dll
+E:\DefaultWinFolder\Document\Visual Studio 2013\Projects\IdlingGodDecode\IdlingGodDecode\bin\Debug\Mono.Security.dll
+E:\DefaultWinFolder\Document\Visual Studio 2013\Projects\IdlingGodDecode\IdlingGodDecode\bin\Debug\UnityEngine.dll
+E:\DefaultWinFolder\Document\Visual Studio 2013\Projects\IdlingGodDecode\IdlingGodDecode\bin\Debug\UnityEngine.Networking.dll
+E:\DefaultWinFolder\Document\Visual Studio 2013\Projects\IdlingGodDecode\IdlingGodDecode\bin\Debug\UnityEngine.UI.dll
+E:\DefaultWinFolder\Document\Visual Studio 2013\Projects\IdlingGodDecode\IdlingGodDecode\bin\Debug\yIRC.dll
+E:\DefaultWinFolder\Document\Visual Studio 2013\Projects\IdlingGodDecode\IdlingGodDecode\obj\Debug\IdlingGodDecode.exe
+E:\DefaultWinFolder\Document\Visual Studio 2013\Projects\IdlingGodDecode\IdlingGodDecode\obj\Debug\IdlingGodDecode.pdb
+E:\DefaultWinFolder\Document\Visual Studio 2013\Projects\IdlingGodDecode\IdlingGodDecode\obj\Debug\IdlingGodDecode.csprojResolveAssemblyReference.cache

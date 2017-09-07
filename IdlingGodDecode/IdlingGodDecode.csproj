@@ -1,0 +1,222 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="12.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{26D712B4-C7DF-4450-BF68-F74DD999D998}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>IdlingGodDecode</RootNamespace>
+    <AssemblyName>IdlingGodDecode</AssemblyName>
+    <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <TargetFrameworkProfile />
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="Assembly-CSharp-firstpass">
+      <HintPath>D:\games\SteamLibrary\steamapps\common\Idling to Rule the Gods\itrtg_Data\Managed\Assembly-CSharp-firstpass.dll</HintPath>
+    </Reference>
+    <Reference Include="Mono.Security">
+      <HintPath>D:\games\SteamLibrary\steamapps\common\Idling to Rule the Gods\itrtg_Data\Managed\Mono.Security.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.ComponentModel.DataAnnotations" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Data.Linq" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+    <Reference Include="UnityEngine">
+      <HintPath>D:\games\SteamLibrary\steamapps\common\Idling to Rule the Gods\itrtg_Data\Managed\UnityEngine.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.Networking">
+      <HintPath>D:\games\SteamLibrary\steamapps\common\Idling to Rule the Gods\itrtg_Data\Managed\UnityEngine.Networking.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.UI">
+      <HintPath>D:\games\SteamLibrary\steamapps\common\Idling to Rule the Gods\itrtg_Data\Managed\UnityEngine.UI.dll</HintPath>
+    </Reference>
+    <Reference Include="yIRC">
+      <HintPath>D:\games\SteamLibrary\steamapps\common\Idling to Rule the Gods\itrtg_Data\Managed\yIRC.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="AfkUi.cs" />
+    <Compile Include="CLZF2.cs" />
+    <Compile Include="Conv.cs" />
+    <Compile Include="Data\ChallengesArea.cs" />
+    <Compile Include="Data\CreatingUi.cs" />
+    <Compile Include="Data\DivinityGeneratorUi.cs" />
+    <Compile Include="Data\FAQUi.cs" />
+    <Compile Include="Data\FightingUi.cs" />
+    <Compile Include="Data\GodPowerUi.cs" />
+    <Compile Include="Data\InfoArea.cs" />
+    <Compile Include="Data\KredOffersUi.cs" />
+    <Compile Include="Data\MainUi.cs" />
+    <Compile Include="Data\MightUi.cs" />
+    <Compile Include="Data\MonumentUi.cs" />
+    <Compile Include="Data\PetUi.cs" />
+    <Compile Include="Data\SettingsUi.cs" />
+    <Compile Include="Data\SkillUi.cs" />
+    <Compile Include="Data\StatisticUi.cs" />
+    <Compile Include="Data\SteamAndroidAchievement.cs" />
+    <Compile Include="Data\SteamOffersUi.cs" />
+    <Compile Include="Data\TrainingUi.cs" />
+    <Compile Include="GUI\AreaGodlyShoot.cs" />
+    <Compile Include="GUI\AreaRightUi.cs" />
+    <Compile Include="GUI\ConnectArea.cs" />
+    <Compile Include="GUI\CrystalUi.cs" />
+    <Compile Include="GUI\Gui.cs" />
+    <Compile Include="GUI\NavigationMenu.cs" />
+    <Compile Include="Helper\ChatRoom.cs" />
+    <Compile Include="Helper\SteamHelper.cs" />
+    <Compile Include="Data\TBSUi.cs" />
+    <Compile Include="EnumName.cs" />
+    <Compile Include="Form1.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form1.Designer.cs">
+      <DependentUpon>Form1.cs</DependentUpon>
+    </Compile>
+    <Compile Include="GUI\GodUi.cs" />
+    <Compile Include="GUI\HeroImage.cs" />
+    <Compile Include="GUI\PlanetUi.cs" />
+    <Compile Include="GUI\SpecialFightUi.cs" />
+    <Compile Include="Helper\Extensions.cs" />
+    <Compile Include="Helper\Kongregate.cs" />
+    <Compile Include="Helper\NS.cs" />
+    <Compile Include="Helper\Purchase.cs" />
+    <Compile Include="Log.cs" />
+    <Compile Include="OfflineCalc.cs" />
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Data\Achievement.cs" />
+    <Compile Include="Data\AchievementId.cs" />
+    <Compile Include="Data\AfkyGame.cs" />
+    <Compile Include="Data\App.cs" />
+    <Compile Include="Data\AvatarOptions.cs" />
+    <Compile Include="Data\BattleState.cs" />
+    <Compile Include="Data\BattleUBV2.cs" />
+    <Compile Include="Data\CampaignBoost.cs" />
+    <Compile Include="Data\Campaigns.cs" />
+    <Compile Include="Data\CDouble.cs" />
+    <Compile Include="Data\ClothingPart.cs" />
+    <Compile Include="Data\ClothingPartEnum.cs" />
+    <Compile Include="Data\Creation.cs" />
+    <Compile Include="Data\CreationCost.cs" />
+    <Compile Include="Data\Critical.cs" />
+    <Compile Include="Data\Crystal.cs" />
+    <Compile Include="Data\CrystalFactory.cs" />
+    <Compile Include="Data\Currency.cs" />
+    <Compile Include="Data\DamageChange.cs" />
+    <Compile Include="Data\DivinityGenerator.cs" />
+    <Compile Include="Data\EnemyData.cs" />
+    <Compile Include="Data\FactoryModule.cs" />
+    <Compile Include="Data\Fight.cs" />
+    <Compile Include="Data\FoodType.cs" />
+    <Compile Include="Data\GameState.cs" />
+    <Compile Include="Data\GeneratorUpgrade.cs" />
+    <Compile Include="Data\God.cs" />
+    <Compile Include="Data\Growth.cs" />
+    <Compile Include="Data\GuiBase.cs" />
+    <Compile Include="Data\Leaderboards.cs" />
+    <Compile Include="Data\LeaderboardScore.cs" />
+    <Compile Include="Data\LeaderBoardType.cs" />
+    <Compile Include="Data\LuckyDraw.cs" />
+    <Compile Include="Data\LuckyDrawCount.cs" />
+    <Compile Include="Data\LuckyType.cs" />
+    <Compile Include="Data\Might.cs" />
+    <Compile Include="Data\ModuleType.cs" />
+    <Compile Include="Data\Monument.cs" />
+    <Compile Include="Data\MonumentUpgrade.cs" />
+    <Compile Include="Data\Multi.cs" />
+    <Compile Include="Data\PBaal.cs" />
+    <Compile Include="Data\Pet.cs" />
+    <Compile Include="Data\PetCampaign.cs" />
+    <Compile Include="Data\PetType.cs" />
+    <Compile Include="Data\Planet.cs" />
+    <Compile Include="Data\Plattform.cs" />
+    <Compile Include="Data\PlayerKredProblems.cs" />
+    <Compile Include="Data\Premium.cs" />
+    <Compile Include="Data\SauceType.cs" />
+    <Compile Include="Data\Settings.cs" />
+    <Compile Include="Data\ShadowClone.cs" />
+    <Compile Include="Data\Skill.cs" />
+    <Compile Include="Data\SkillExtension.cs" />
+    <Compile Include="Data\SkillTypeUBV2.cs" />
+    <Compile Include="Data\SkillUB2.cs" />
+    <Compile Include="Data\State2.cs" />
+    <Compile Include="Data\Statistic.cs" />
+    <Compile Include="Data\StoryUi.cs" />
+    <Compile Include="Data\Training.cs" />
+    <Compile Include="Data\TrainingBase.cs" />
+    <Compile Include="Data\UltimateBeing.cs" />
+    <Compile Include="Data\UltimateBeingV2.cs" />
+    <Compile Include="SteamManager.cs" />
+    <Compile Include="Storage.cs" />
+    <Compile Include="UpdateStats.cs" />
+    <Compile Include="Vertifier.cs" />
+    <EmbeddedResource Include="Form1.resx">
+      <DependentUpon>Form1.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\licenses.licx" />
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <WCFMetadata Include="Service References\" />
+  </ItemGroup>
+  <ItemGroup />
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>
